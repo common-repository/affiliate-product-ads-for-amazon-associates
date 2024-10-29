@@ -1,0 +1,166 @@
+/* discalimer */
+.pip-amzpa-disclaimer {
+	color: grey;
+}
+
+.pip-amzpa-disclaimer-auto {
+	border-top: 1px solid black;
+    border-bottom: 1px solid black;
+	background-color: #f9f9f9;
+	padding: 1em;	
+	margin: 2em 0;
+}
+
+.pip-amzpa-disclaimer-title {
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+}
+
+.pip-amzpa-disclaimer i {
+	display: inline-block;
+}
+
+.pip-amzpa-disclaimer-footer {
+    margin: 1em 2em;
+    padding-bottom: 1em;
+}
+
+/* product ads: auto */
+.pip-amzpa-wrapper {
+    background-color: #f9f9f9;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.pip-amzpa-header {
+    font-weight: bold;
+    font-size: 1.3rem;
+	padding: 0.5rem 1rem 0 1rem;
+}
+
+.pip-amzpa-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.pip-amzpa-container .pip-amzpa-item {
+	flex-basis: 25%;
+	padding: 2%;
+	font-size: .85rem;
+}
+
+@media only screen 
+  and (max-device-width: 480px)
+  {
+	.pip-amzpa-container .pip-amzpa-item {
+		flex-basis: 50%;
+	}
+}
+
+.pip-amzpa-button {
+    border: 1px solid #8B6F4E;
+    padding: 0.3em 0.5em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    background-color: #FF9800;
+    border-radius: 6px;
+    display: block;
+    text-align: center;
+}
+
+.pip-amzpa-type-asin a.pip-amzpa-cta.pip-amzpa-button {
+    color: #000000;
+}
+
+.pip-amzpa-container .pip-amzpa-title {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.pip-amzpa-container .pip-amzpa-price > *:not(:last-child) {
+    margin-right: .5rem;
+}
+
+.pip-amzpa-container .pip-amzpa-price-discount-percent {
+	color: #CC0C39;
+}
+
+.pip-amzpa-container .pip-amzpa-price-amount {
+	font-weight: bold;
+}
+
+.pip-amzpa-container .pip-amzpa-delivery-prime  {
+	display: inline-block;
+}
+
+.pip-amzpa-container .paapi5-pa-product-prime-icon .icon-prime-all {
+    background: url(https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonUIBaseCSS-sprite_2x_weblab_AUI_100106_T1-4e9f4ae74b1b576e5f55de370aae7aedaedf390d._V2_.png) no-repeat;
+    display: inline-block;
+    margin-top: -1px;
+    vertical-align: middle;
+    background-position: -192px -911px;
+    background-size: 560px 938px;
+    width: 52px;
+    height: 15px;
+}
+
+.pip-amzpa-wrapper.pip-amzpa-type-asin {
+	margin-bottom: 5%;
+	border: none;
+    background-color: inherit;
+}
+
+.pip-amzpa-header.pip-amzpa-header-asin {
+    padding: 0;
+    margin-bottom: 1em;
+}
+
+.pip-amzpa-wrapper.pip-amzpa-type-asin .pip-amzpa-container {
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+	display: inherit;
+	padding: 2%;
+}
+
+.pip-amzpa-wrapper.pip-amzpa-type-asin .pip-amzpa-container .pip-amzpa-title {
+	display: block;
+}
+
+.pip-amzpa-wrapper.pip-amzpa-type-asin .pip-amzpa-container .pip-amzpa-title a {
+	color: #000000;
+	font-weight: bold;
+	font-size: 1.3em;
+	text-decoration: none;
+}
+
+.pip-amzpa-wrapper.pip-amzpa-type-asin .pip-amzpa-item {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.pip-amzpa-wrapper.pip-amzpa-type-asin .pip-amzpa-item .pip-amzpa-price {
+	text-align: center;
+}
+
+.pip-amzpa-wrapper.pip-amzpa-type-asin .pip-amzpa-item .pip-amzpa-image {
+	flex-basis: 33.33%;
+}
+
+.pip-amzpa-wrapper.pip-amzpa-type-asin .pip-amzpa-item .pip-amzpa-title {
+	flex-basis: 66.66%;
+}
+
+.pip-amzpa-flex-align-right {
+   margin-left: auto;
+}
+
+.pip-amzpa-disclaimer.pip-amzpa-disclaimer-asin {
+    margin-top: 1em;
+}
